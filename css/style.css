@@ -1,0 +1,202 @@
+body{
+    background-color: #D9EDBF;
+}
+.topdiv{
+    display:flex;
+    background-color: #90D26D;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top:0;
+    
+
+}
+.logo{
+  margin-left: 40px;
+  margin-top: 10px;
+  width: 300px;
+  height: 50px;
+  margin-right: 150px;
+
+}
+
+.topnavdiv{ 
+  height: 50px; 
+  margin-right: 20px;
+ 
+
+}
+.homebtn {
+  background-color:transparent;
+  color: #2C7865;
+  padding: 16px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+  font-size: 16px;
+  border-radius: 50px;
+  border: none;
+  width: fit-content;
+  font-family: arial;
+  font-weight: bold;
+  text-decoration: none;
+  
+}
+
+.drpbtn {
+    background-color:transparent;
+    color: #2C7865;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 50px;
+    border: none;
+    width: 160px;
+    height: 50px;
+    font-family: arial;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .topnavdiv-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .topnavdiv-content a {
+    color: #2C7865;
+    font-family:georgia;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .topnavdiv-content a:hover {
+    background-color: #2C7865;
+    color: #90D26D;
+  }
+  .topnavdiv:hover .topnavdiv-content {
+    display: block;
+    background-color:  #90D26D;
+    border-radius: 10px;
+    transition: 0.9s;
+    
+  }
+  .drpbtn:hover, .homebtn:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    transition: 0.9s;
+
+  }
+
+
+.contentlayers{
+  display: flex;
+}
+  .firstlayer{
+    display:flex;
+    width: 50%;
+    height: fit-content;
+    margin-top: 100px;
+    color: #2C7865;
+    font-family:georgia;
+    
+
+    
+  }
+  .first-l{
+    width: 50%;
+    text-align: right;
+    margin-top: 100px;
+    margin-right: 10px;
+
+  }
+  .verticalline{
+    border-left: 6px solid #90D26D;
+    height: 300px;
+  }
+  .first-r{
+    margin-top: 100px;
+    margin-left: 10px;
+    width: 50%;
+    text-align: left;
+  }
+
+
+
+  .secondlayer{
+    display:flex;
+    width: 50%;
+    height: fit-content;
+    margin-top: 300px;
+    margin-right: 50px;
+    color: #2C7865;
+    font-family:georgia;
+   
+    
+  }
+  .second-l{
+    width: 50%;
+    text-align: right;
+    margin-top: 100px;
+    margin-right: 10px;
+
+  }
+  .second-r{
+    margin-top: 100px;
+    margin-left: 10px;
+    width: 50%;
+    text-align: left;
+
+  }
+  
+
+  .thirdlayer{
+    background-color: #90D26D;
+    height: 600px;
+    width: 100vw;
+    margin-top: 20px;
+    margin-left: -10px;
+    
+
+    
+   
+  }
+  .third-images{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #2C7865;
+    
+    
+  }
+  .third-images a {
+    text-decoration: none;
+    color: #2C7865;
+  }
+  .third-images img{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    
+  }
+
+  .third-top{
+    color: #2C7865;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .thirdlayer img{
+    height: 400px;
+    width: 400px;
+    
+  }
+  .thirdlayer img:hover{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    z-index: 1;
+    opacity: 0.9;
+  }
+ 
